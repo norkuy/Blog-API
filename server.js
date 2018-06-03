@@ -8,6 +8,7 @@ const blogPostsRouter = require('./blogPostsRouter');
 
 app.use(bodyParser.json())
 app.use(morgan('common'));
+app.use(express.static('public'));
 
 app.use('/blog-posts', blogPostsRouter);
 
