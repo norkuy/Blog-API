@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: hC/YuigyQi43TlBsvG2y6mm+Cy1Y/yzRK4qApqpaGYhYIJ5filv3EvJW71T/5zMeLUMQURaVMGyfEWBG2mQowe8lQ7uwhG13UoEtHhU/otycTPK4YSbhoUVsCv3U/dBrzX33DAeLIJxhlZBhjGJG0l5ppAq06Vj+nWCV0Y/VnZ3rM4N+C5+qmCMtbxuiCwBLYoUjbgl8CXhmjICsqn3cc+dsVW06H6v5chyuDif52LbzspOQTVWq7nfoidjZOxBEkiCmpO6NWX8zV6w2Og1/x4lW+iF4cG/+QxoBd3MCRywdL5Mi+giFNqTbSxEpqbqpZRAhwvSqtqdvCQtjxfiEicls0JRwiC/UkEM565/+ykSvHbvBChNBqZnSz0YC0TWRe4l9uYhdUYzfNTk7mvNXO+t1NAe7BEksBLJzUn0RMogHbCFMTr2NVZ8pPeL7AAv/LCDcDkg/DG9Lf4xiQnKqL8JzVEBgIUrGEomt7yEVDoLFdshLjaRXWCQc7205E9vYhY9fP6HdYf6N+ogLBxVXc1GY8pOWEALSY/3oRPF8EX7Ku3mI+ov+CxEiYuuuhIVw68MIZnlHgy3XYYL5Ys5SaWbkVNkKHG7owmsKLW23n2no7lmZ/RtlXh9OjE1Ur8BgceehwxZ6cPnxQPnkNFhDuo3TAHsmvcQt8wonOmvvw3E=
+  app: salty-chamber-48323
+  on:
+    repo: norkuy/Blog-API
